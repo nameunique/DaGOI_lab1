@@ -9,6 +9,21 @@ Project was written on windows...
 3. pip install serial
 4. pip install PyQt5
 
+## How to upload code to ESP
+
+1. Choose board NodeMCU-32S and set upload speed 115200
+2. Load to ESP Arduino code
+5. Start main.py or start .exe after build.
+
+## How it looks like
+
+Window:
+![Alt text](images_for_readme/form.png)
+
+Video demonstration:
+<video src="images_for_readme/lab1.mp4" controls title="Title"></video>
+
+
 ## Whats instrument used
 
 For creating .ui file was used Qt Designer.
@@ -20,9 +35,6 @@ For creating .exe file was used:
 4. Specify the path to the py file. specify in additional files .ui interface
 5. Convert
 6. Win
-
-## How it looks like
-![Alt text](images_for_readme/form.png)
 
 ## Aditional info
 NodeMCU ESP32 pinout
